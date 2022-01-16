@@ -10,7 +10,7 @@
     - npm install
     - npm run build
     - npm start
-8. Clonare il progetto https://bitbucket.org/Bl00dyShark/image-resizing/src/main/
+8. Clonare il progetto https://github.com/AndreaFerrari97/image-resizing
 9. Aggiungere il file .env alla root del progetto
 10.  Eseguire
     - npm install

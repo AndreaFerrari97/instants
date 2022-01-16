@@ -1,0 +1,36 @@
+{
+  "name": "backend-instants",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node dist/src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Bl00dyShark@bitbucket.org/Bl00dyShark/backend-instants.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Bl00dyShark/backend-instants#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@types/faker": "^5.5.9",
+    "amqplib": "^0.8.0",
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "ftp": "^0.3.10",
+    "moment": "^2.29.1",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1"
+  }
+}

@@ -1,3 +1,9 @@
+# Scopo del progetto #
+Questo progetto è stato creato a scopo di mettere in pratica le nozioni apprese dal libro Clean Architecture.
+
+Fornendo in input un'immagine, essa verrà salvata sull'FTP server, le v informazioni su MySQL e utilizzando RabbitMQ verrà inviato il nome del file ad un servizio che si occupa di effettuare il resize dell'immagine e pubblicare il risultato sull'FTP Server. (schema: https://ibb.co/gv38y3M)
+
+
 # Come eseguire il progetto #
 
 1. Inserire il file .env nella root di questo progetto.
